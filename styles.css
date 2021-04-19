@@ -1,0 +1,32 @@
+header{
+    background-color: skyblue;
+    height: 100px;
+    width: 100%;
+}
+nav{
+    background-color: bisque;
+    min-height: 40px;
+    text-align: center;
+    display: block;
+}
+article{
+    background-color: tan;
+    /* height: 350px; */
+}
+section{
+    text-align: center;
+    border-style: dotted;
+    display: block;
+}
+aside{
+    float: left;
+    width: auto;
+    /* height: 150px; */
+    background-color: tomato;
+}
+footer{
+    clear: left;
+    width: 100%;
+    height: 40px;
+    background-color: skyblue;
+}

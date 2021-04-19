@@ -1,0 +1,89 @@
+@media only screen and (max-width: 480px) {
+    aside {
+        display: none;
+    }
+    article{
+        height: 200px;
+        
+    }
+    section{
+       display: block;
+        border-color: red;
+        background-color: rgb(221, 109, 109);
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+        padding: 30px, 30px, 30px, 30px;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 481px) {
+    aside {
+        width: 20%;
+        height: 200px;
+        float: left;
+    }
+    article{
+        width: 80%;
+        height: 200px;
+        float: left;
+    }
+}
+@media only screen and (max-width: 768px)and (min-width: 481px){
+    section{
+        text-align: center;
+        margin-bottom: 20px;
+        border-style: dotted;
+        background-color: yellow;
+        border-color: red;
+    }
+    section.sec1{
+        float: left;
+        margin-left: 10%;
+        margin-right: 0.01%;
+        padding: 30px, 30px, 30px, 30px;
+        width: 35%;
+    }
+    section.sec2{
+        float: left;
+        margin-left: 0.01%;
+        margin-right: 10%;
+        padding: 30px, 30px, 30px, 30px;
+        width: 35%;
+    }
+    section.sec3{
+        clear: left;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 30px, 30px, 30px, 30px;
+    }
+}
+@media only screen and (min-width: 769px){
+    nav div{
+        display: block;
+        float: left;
+        width: 33.33%;
+    }
+    section{
+        float: left;
+        padding: 40px, 20px, 40px, 20px;
+        width: 25%;
+        background-color: rgb(106, 189, 106);
+        border-color: red;
+    }
+    section.sec1{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    section.sec2{
+        align-self: center;
+    }
+    section.sec3{
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    nav{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
